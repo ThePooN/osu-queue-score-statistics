@@ -18,7 +18,7 @@ jobs:
             context: ./osu.Server.Queues.ScoreStatisticsProcessor
             file: ./osu.Server.Queues.ScoreStatisticsProcessor/Dockerfile
           - image: thepoon/osu-queue-score-pump
-            context: ./osu.Server.Queues.ScorePump
+            context: ./
             file: ./osu.Server.Queues.ScorePump/Dockerfile
     steps:
       -
