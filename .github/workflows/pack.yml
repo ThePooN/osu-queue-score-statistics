@@ -14,10 +14,10 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: pppy/osu-queue-score-statistics
+          - image: thepoon/osu-queue-score-statistics
             context: ./osu.Server.Queues.ScoreStatisticsProcessor
             file: ./osu.Server.Queues.ScoreStatisticsProcessor/Dockerfile
-          - image: pppy/osu-queue-score-pump
+          - image: thepoon/osu-queue-score-pump
             context: ./osu.Server.Queues.ScorePump
             file: ./osu.Server.Queues.ScorePump/Dockerfile
     steps:
